@@ -186,16 +186,10 @@ ul.menu_items {
   padding-top: 100px;
 }
 
-#coforce {
-  width: 302.4px;
-  height: 203.7px;
-  border-radius: 6px;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  display: block;
-}
 
+.projtext1 {
+  width: 302.4px;
+}
 .projtext2 {
   width: 302.4px;
 }
@@ -206,7 +200,12 @@ ul.menu_items {
 .projtext4 {
   width: 302.4px;
 }
-
+.projname1 {
+  text-decoration: underline;
+   margin-bottom: 10px;
+   font-size: 18px;
+  
+ }
 .projname2 {
  text-decoration: underline;
   margin-bottom: 10px;
@@ -242,7 +241,16 @@ ul.menu_items {
   position: relative;
   margin-top: 22px;
 }
-
+#coforce {
+  width: 302.4px;
+  height: 203.7px;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  display: block;
+  transition: 0.2s ease;
+}
 #airbnb {
   width: 302.4px;
   height: 203.7px;
@@ -881,7 +889,7 @@ a:visited {
     transition: 0.2s ease;
     opacity: 1;
     display: block;
-    positon: absolute;
+    position: absolute;
   }
   #airbnb {
     width: 432px;
@@ -926,7 +934,19 @@ a:visited {
     transform: scale(1.01);
     transition: 0.2s ease;
   }
+  .projname1 {
+    width: 432px;
+    margin-top: 10px;
+    font-size: 22px;
+  text-decoration: none;
+  }
 
+ .description1 {
+    width: 432px;
+
+    font-size: 20px;
+    font-weight: 300;
+  }
 .projname2 {
     width: 432px;
     margin-top: 10px;
