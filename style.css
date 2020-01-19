@@ -787,7 +787,11 @@ a:visited {
     cursor: pointer;
     text-decoration: underline;
   }
-
+  .proj1:hover .projname1 {
+    color: #5d46db;
+    transition: all 0.2s ease;
+      text-decoration: underline;
+  }
   .proj3:hover .projname3 {
     color: #5d46db;
     transition: all 0.2s ease;
