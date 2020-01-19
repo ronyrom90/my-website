@@ -781,6 +781,12 @@ a:visited {
     cursor: pointer;
     text-decoration: underline;
   }
+  #medium:hover {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
   a.links:hover {
     color: #5d46db;
     transition: all 0.2s ease;
