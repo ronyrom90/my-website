@@ -923,11 +923,13 @@ a:visited {
   }
 
   .proj1:hover {
-    transform: scale(1.01);
+    
     cursor: pointer;
   }
   .proj1:hover #coforce {
     opacity: 0.2;
+    transform: scale(1.01);
+    transition: 0.2s ease;
   }
 
   .proj2:hover {
