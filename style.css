@@ -176,6 +176,8 @@ ul.menu_items {
   margin-left: auto;
   align-items: center;
   height: -webkit-fill-available;
+  font-size: 20.1px;
+  padding-top:50px;
 }
 .project-container {
   display: flex;
