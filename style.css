@@ -175,7 +175,7 @@ ul.menu_items {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
-  height: auto;
+  height: -webkit-fill-available;
 }
 .project-container {
   display: flex;
