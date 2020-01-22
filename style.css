@@ -169,6 +169,14 @@ ul.menu_items {
     transform: translateY(25px);
   }
 }
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  height: auto;
+}
 .project-container {
   display: flex;
   flex-flow: column wrap;
