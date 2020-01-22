@@ -175,7 +175,6 @@ ul.menu_items {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
-  height: -webkit-fill-available;
   font-size: 20.1px;
   padding-top:50px;
 }
@@ -382,10 +381,7 @@ footer {
   margin-bottom: auto;
   width: 198px;
 } 
-.coforce-footer {
-position: fixed;
-bottom: 0;
-}
+
 
 .touch {
   font-size: 20px;
