@@ -372,6 +372,16 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
 }
+.coforce-footer {
+  background-color: rgba(93, 70, 219, 0.69);
+  height: 138px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: -webkit-fill-available;
+}
 
 .footer-container {
   display: flex;
