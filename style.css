@@ -382,16 +382,9 @@ footer {
   margin-bottom: auto;
   width: 198px;
 } 
-.footer-container-coforce {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-left: 27px;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 198px;
-  position: fixed;
-  bottom: 0;
+.coforce-footer {
+position: fixed;
+bottom: 0;
 }
 
 .touch {
