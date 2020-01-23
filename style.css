@@ -213,14 +213,14 @@ ul.menu_items {
 .projname1 {
   text-decoration: underline;
    margin-bottom: 2px;
-   margin-top: 20px;
+   margin-top: 12px;
    font-size: 18px;
   
  }
 .projname2 {
  text-decoration: underline;
   margin-bottom: 2px;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 18px;
  
 }
@@ -228,13 +228,13 @@ ul.menu_items {
 .projname3 {
    text-decoration: underline;
   margin-bottom: 2px;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 18px;
 }
 .projname4 {
    text-decoration: underline;
   margin-bottom: 2px;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 18px;
 }
 
@@ -973,7 +973,7 @@ a:visited {
   }
   .projname1 {
     width: 432px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
   text-decoration: none;
   }
@@ -986,7 +986,7 @@ a:visited {
   }
 .projname2 {
     width: 432px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
   text-decoration: none;
   }
@@ -1055,7 +1055,7 @@ a:visited {
 
   .projname3 {
     width: 432px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
     text-decoration: none;
   }
@@ -1078,7 +1078,7 @@ a:visited {
 
   .projname4 {
     width: 432px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
     text-decoration: none;
   }
