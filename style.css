@@ -539,6 +539,20 @@ a:visited {
   letter-spacing: -0.03px;
 }
 
+
+.mockups {
+    position: absolute;
+    opacity: 0;
+    display: none;
+
+
+  
+}
+ #mockupsgroup {
+
+    height: 483px;
+
+}
 /* M mobile */
 
 @media all and (min-width: 375px) and (max-width: 457px) {
@@ -1280,4 +1294,18 @@ a:visited {
 position: relative;
 padding-top:25px;
   }
+
+.mockups {
+    position: relative;
+    opacity: 1;
+    
+display: flex;
+justify-content:center;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+margin-bottom:100px;
+  
+}
+ 
 }
