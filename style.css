@@ -195,8 +195,8 @@ ul.menu_items {
   
 }
 #pixel{
-width: 81.4px;
-  height: 175.7px;
+width: 110px;
+  height: 233px;
   display: flex;
 }
 .coforceproj {
@@ -205,8 +205,9 @@ align-items: center;
 margin-left:27px;
 }
 .projintro{
-font-weight: 300;
-    padding-left: 40px;
+font-weight: 400;
+    padding-left: 32px;
+font-size: 18px;
 }
 .project-container {
   display: flex;
