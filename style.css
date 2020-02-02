@@ -169,6 +169,17 @@ ul.menu_items {
   margin-bottom: 10px;
   text-decoration: underline;
 }
+.youtube {
+  color: #000000;
+  display: block;
+  width: 304px;
+  font-size: 20.1px;
+  font-weight: 300;
+  letter-spacing: -0.04px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
 #arrow {
   display: block;
   position: absolute;
@@ -574,6 +585,10 @@ a:visited {
     font-size: 22px;
     width: 100%;
   }
+  .youtube {
+    font-size: 22px;
+    width: 100%;
+  }
 
   #first {
     font-size: 22px;
@@ -638,6 +653,10 @@ a:visited {
     font-size: 24px;
   }
   .more {
+    font-size: 24px;
+    width: 100%;
+  }
+  .youtube {
     font-size: 24px;
     width: 100%;
   }
@@ -937,6 +956,15 @@ a:visited {
     transition: 0.2s ease;
     text-decoration: none;
   }
+  .youtube {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 504px;
+    transition: 0.2s ease;
+    text-decoration: none;
+  }
+
   .what {
     padding-left: 250px;
     font-size: 28px;
