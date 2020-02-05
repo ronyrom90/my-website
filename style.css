@@ -1812,9 +1812,12 @@ margin-bottom:100px;
 
   .aboutme {
     padding-top: 50px;
-    padding-left: 250px;
+    padding-left: 0PX;
     font-size: 72px;
     display: flex;
+    WIDTH: 942PX;
+    MARGIN-LEFT: auto;
+    margin-right: auto;
   }
 
   .line2 {
