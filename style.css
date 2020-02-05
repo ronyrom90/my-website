@@ -1344,9 +1344,7 @@ margin-bottom:100px;
 
 /* large desktop */
 @media all and (min-width: 1440px) and (max-width: 1920px) {
-  body {
-    width: 1440px;
-  }
+  
 
   .up {
     margin-top: -35px;
