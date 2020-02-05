@@ -1488,6 +1488,11 @@ margin-bottom:100px;
   .what {
     
     font-size: 28px;
+    width: 941px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+
   }
 
   .line {
