@@ -821,7 +821,7 @@ a:visited {
 }
 
 /* desktop */
-@media all and (min-width: 1024px) and (max-width: 1920px) {
+@media all and (min-width: 1024px) and (max-width: 1440px) {
   body {
     width: 1440px;
   }
@@ -967,6 +967,528 @@ a:visited {
 
   .what {
     padding-left: 250px;
+    font-size: 28px;
+  }
+
+  .line {
+    width: 950px;
+    height: 18px;
+    bottom: 18px;
+  }
+
+  .project-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 100px;
+    width: 941px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: start;
+  }
+
+  .proj1 {
+    position: relative;
+    margin-top: 0;
+    opacity: 1;
+    transition: 0.2s ease;
+  }
+  .proj2 {
+    position: relative;
+    opacity: 1;
+    transition: 0.2s ease;
+    margin-top: 0px;
+  }
+  .proj3 {
+    position: relative;
+    opacity: 1;
+    transition: 0.2s ease;
+  }
+  .proj4 {
+    position: relative;
+    opacity: 1;
+    transition: 0.2s ease;
+  }
+
+  #coforce {
+    width: 432px;
+    height: 291px;
+    transition: 0.2s ease;
+    opacity: 1;
+    display: block;
+    position: absolute;
+  }
+  #airbnb {
+    width: 432px;
+    height: 291px;
+    transition: 0.2s ease;
+    opacity: 1;
+    display: block;
+    position: absolute;
+  }
+
+  #microsite {
+    width: 432px;
+    height: 291px;
+    transition: 0.2s ease;
+    opacity: 1;
+    display: block;
+    position: absolute;
+  }
+  #buddy {
+    width: 432px;
+    height: 291px;
+    margin-top: 0;
+    transition: 0.2s ease;
+    opacity: 1;
+    display: block;
+    position: absolute;
+  }
+
+  .proj1:hover {
+    cursor: pointer;
+  }
+  .proj1:hover #coforce {
+    opacity: 0.2;
+    transform: scale(1.01);
+    transition: 0.2s ease;
+  }
+
+  .proj2:hover {
+    cursor: pointer;
+  }
+  .proj2:hover #airbnb {
+    opacity: 0.2;
+    transform: scale(1.01);
+    transition: 0.2s ease;
+  }
+  .projname1 {
+    width: 432px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .description1 {
+    width: 432px;
+
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .projname2 {
+    width: 432px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .description2 {
+    width: 432px;
+
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .proj3:hover {
+    cursor: pointer;
+  }
+  .proj3:hover #microsite {
+    opacity: 0.2;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+  }
+  .proj1:hover #mockup1 {
+    opacity: 1;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+  }
+
+  .proj2:hover #mockup2 {
+    opacity: 1;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+  }
+  .proj3:hover #mockup3 {
+    opacity: 1;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+  }
+
+  .proj4:hover #mockup4 {
+    opacity: 1;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+  }
+  #mockup1 {
+    width: 432px;
+    height: 291px;
+    position: relative;
+    margin-top: 0px;
+  }
+  #mockup2 {
+    width: 432px;
+    height: 291px;
+    position: relative;
+    margin-top: 0px;
+  }
+  #mockup3 {
+    width: 432px;
+    height: 291px;
+    position: relative;
+    margin-top: 0px;
+  }
+  #mockup4 {
+    width: 432px;
+    height: 291px;
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .projname3 {
+    width: 432px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .description3 {
+    width: 432px;
+
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .proj4:hover {
+    cursor: pointer;
+  }
+  .proj4:hover #buddy {
+    opacity: 0.2;
+    transform: scale(1.01);
+  }
+
+  .projname4 {
+    width: 432px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .description4 {
+    width: 432px;
+
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  #arrow {
+    display: block;
+    width: 50px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: vertical 4s infinite;
+    width: 35px;
+    position: relative;
+  }
+
+  .footer-container {
+    flex-flow: row wrap;
+    width: 942px;
+    margin-left: 250px;
+    padding-left: 0px;
+    padding-right: 0;
+    justify-content: space-between;
+  }
+
+  .touch {
+    font-size: 28px;
+  }
+
+  ul.social-media {
+    font-size: 28px;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 651px;
+    justify-content: space-between;
+  }
+  #linkedin {
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  #glasses {
+    width: 40px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  #medium {
+    padding-top: 0px;
+  }
+  .rony {
+    padding-left: 20px;
+  }
+
+  #backarrow {
+    width: 17px;
+    height: 28px;
+  }
+
+  .goback {
+    font-size: 28px;
+  }
+
+  .aboutcontent {
+   padding-bottom: 50px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    width: 100%;
+    font-size: 28px;
+    padding-bottom: 50px;
+  }
+
+  #hi {
+    font-size: 28px;
+  }
+
+  #why {
+    font-size: 28px;
+  }
+  #why2 {
+    font-size: 28px;
+  }
+  #other {
+    font-size: 28px;
+  }
+
+  #Currently {
+    font-size: 28px;
+  }
+
+  #btw {
+    font-size: 28px;
+  }
+
+  .aboutme {
+    padding-top: 50px;
+    padding-left: 250px;
+    font-size: 72px;
+    display: flex;
+  }
+
+  .line2 {
+    width: 576px;
+    height: 14px;
+    margin-top: 3px;
+  }
+  #pixel {
+    width: 110px;
+    height: 233px;
+    display: flex;
+  }
+  .coforceproj {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    padding-top: 50px;
+    opacity: 0;
+    position: absolute;
+  }
+  .projintro {
+    font-weight: 400;
+    padding-left: 32px;
+    font-size: 18px;
+  }
+  .linecoforce {
+    width: 660px;
+    height: 14px;
+    margin-top: 3px;
+  }
+  .coforceapp {
+    padding-left: 250px;
+    font-size: 72px;
+    padding-top: 50px;
+  }
+
+  #what_is_it_about {
+    font-size: 28px;
+  }
+  .projintrodesktop {
+    font-size: 28px;
+    opacity: 1;
+    padding-left:250px;
+position: relative;
+padding-top:25px;
+  }
+
+.mockups {
+    position: relative;
+    opacity: 1;  
+display: flex;
+justify-content:center;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+margin-bottom:100px;
+  
+}
+ 
+}
+
+/* large desktop */
+@media all and (min-width: 1440px) and (max-width: 1920px) {
+  body {
+    width: 1440px;
+  }
+
+  .up {
+    margin-top: -35px;
+    margin-left: 1300px;
+    transition: all 0s ease;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .up2 {
+    margin-top: -35px;
+    margin-left: 1300px;
+    transition: all 0s ease;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #upup {
+    width: 70px;
+  }
+
+  .up:hover {
+    transform: rotate(15deg);
+    transform-origin: center left;
+    cursor: pointer;
+  }
+
+  .up2:hover {
+    transform: rotate(15deg);
+    transform-origin: center left;
+    cursor: pointer;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #first:hover {
+    color: #5d46db;
+    font-size: 28px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  #second:hover {
+    color: #5d46db;
+    font-size: 28px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  #mail:hover {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  #linkedin:hover {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  #medium:hover {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  a.links:hover {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .proj1:hover .projname1 {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+  }
+  .proj3:hover .projname3 {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+  }
+  .proj2:hover .projname2 {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+  }
+  .proj4:hover .projname4 {
+    color: #5d46db;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+  }
+
+  nav.nav-container {
+    padding-left: 250px;
+    margin: 0 0 0 0;
+  }
+
+  ul.menu_items {
+    font-size: 28px;
+  }
+
+  #first {
+    padding-right: 58px;
+  }
+  .name {
+    padding-top: 50px;
+    padding-left: 250px;
+    font-size: 130px;
+    display: flex;
+  }
+  .intro {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    width: 100%;
+    font-size: 28px;
+  }
+  .more {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 504px;
+    transition: 0.2s ease;
+    text-decoration: none;
+  }
+  .youtube {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    transition: 0.2s ease;
+    text-decoration: none;
+  }
+
+  .what {
+    padding-left: 465px;
     font-size: 28px;
   }
 
