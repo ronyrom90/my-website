@@ -1849,9 +1849,12 @@ margin-bottom:100px;
     margin-top: 3px;
   }
   .coforceapp {
-    padding-left: 250px;
+    padding-left: 0px;
     font-size: 72px;
     padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 942px;
   }
 
   #what_is_it_about {
@@ -1860,9 +1863,12 @@ margin-bottom:100px;
   .projintrodesktop {
     font-size: 28px;
     opacity: 1;
-    padding-left:250px;
-position: relative;
-padding-top:25px;
+    padding-left: 0;
+    position: relative;
+    padding-top: 25px;
+    width: 942px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .mockups {
