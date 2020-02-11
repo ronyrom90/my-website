@@ -1294,7 +1294,7 @@ a:visited {
     height: 14px;
     margin-top: 3px;
     animation-name: line22;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
       }
     @keyframes line22 {
       from {width: 0px}
@@ -1843,7 +1843,7 @@ margin-bottom:100px;
     height: 14px;
     margin-top: 3px;
     animation-name: line2;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
       }
     @keyframes line2 {
       from {width: 0px}
