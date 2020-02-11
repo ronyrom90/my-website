@@ -974,7 +974,13 @@ a:visited {
     width: 950px;
     height: 18px;
     bottom: 18px;
-  }
+    animation-name: example;
+    animation-duration: 1.5s;
+      }
+    @keyframes example {
+      from {width: 0px}
+      to {width: 950px}
+    }
 
   .project-container {
     margin-left: auto;
