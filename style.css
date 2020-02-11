@@ -1293,7 +1293,13 @@ a:visited {
     width: 576px;
     height: 14px;
     margin-top: 3px;
-  }
+    animation-name: line22;
+    animation-duration: 1.5s;
+      }
+    @keyframes line22 {
+      from {width: 0px}
+      to {width: 576px}
+    }
   #pixel {
     width: 110px;
     height: 233px;
@@ -1512,7 +1518,13 @@ margin-bottom:100px;
     width: 1180px;
     height: 18px;
     bottom: 18px;
-  }
+    animation-name: line;
+    animation-duration: 1.5s;
+      }
+    @keyframes line {
+      from {width: 0px}
+      to {width: 1180px}
+    }
 
   .project-container {
     margin-left: auto;
@@ -1830,7 +1842,13 @@ margin-bottom:100px;
     width: 815px;
     height: 14px;
     margin-top: 3px;
-  }
+    animation-name: line2;
+    animation-duration: 1.5s;
+      }
+    @keyframes line2 {
+      from {width: 0px}
+      to {width: 815px}
+    }
   #pixel {
     width: 110px;
     height: 233px;
