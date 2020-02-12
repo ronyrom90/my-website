@@ -1322,7 +1322,13 @@ a:visited {
     width: 660px;
     height: 14px;
     margin-top: 3px;
-  }
+    animation-name: line23;
+    animation-duration: 1s;
+      }
+    @keyframes line23 {
+      from {width: 0px}
+      to {width: 660px}
+    }
   .coforceapp {
     padding-left: 250px;
     font-size: 72px;
@@ -1871,7 +1877,13 @@ margin-bottom:100px;
     width: 900px;
     height: 14px;
     margin-top: 3px;
-  }
+    animation-name: line24;
+    animation-duration: 1s;
+      }
+    @keyframes line24 {
+      from {width: 0px}
+      to {width: 990px}
+    }
   .coforceapp {
     padding-left: 0px;
     font-size: 72px;
