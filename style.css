@@ -586,7 +586,7 @@ a:visited {
     width: 100%;
   }
   .youtube {
-    
+    font-weight: 400;
     width: 100%;
   }
 
@@ -597,6 +597,8 @@ a:visited {
   #second {
     font-size: 22px;
   }
+
+  
 }
 
 /* LARGE MOBILE */
