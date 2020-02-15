@@ -565,7 +565,7 @@ a:visited {
 }
  #mockupsgroup {
 
-    height: 483px;
+    width:  -webkit-fill-available;
 
 }
 /* M mobile */
