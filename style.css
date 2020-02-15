@@ -569,11 +569,7 @@ a:visited {
 
 }
 
-#video {
-  
-  width: 320px ;
 
-  }
 /* M mobile */
 
 @media all and (min-width: 375px) and (max-width: 457px) {
