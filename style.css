@@ -243,6 +243,21 @@ ul.menu_items {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  animation-name: falling;
+  animation-duration: 1.5s;
+  
+
+}
+@keyframes falling {
+  from {
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  to {
+    opacity: 1;
+    transform : translateY(0);
+  }
+ 
 }
 .projintrodesktop {
   opacity: 0;
@@ -252,10 +267,24 @@ ul.menu_items {
 .what {
   font-size: 20px;
   letter-spacing: -0.04px;
-
   text-decoration-color: #5d46db;
   padding-left: 27px;
   padding-top: 100px;
+  animation-name: falling;
+  animation-duration: 1.5s;
+  
+
+}
+@keyframes falling {
+  from {
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  to {
+    opacity: 1;
+    transform : translateY(0);
+  }
+ 
 }
 
 .projtext1 {
