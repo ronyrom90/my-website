@@ -205,21 +205,6 @@ ul.menu_items {
   bottom: auto;
   animation: vertical 4s infinite;
   width: 24px;
-  animation-name: falling;
-  animation-duration: 1.5s;
-  
-
-}
-@keyframes falling {
-  from {
-    opacity: 0;
-    transform: translateY(-50px)
-  }
-  to {
-    opacity: 1;
-    transform : translateY(0);
-  }
- 
 }
 @keyframes vertical {
   0%,
@@ -258,22 +243,7 @@ ul.menu_items {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
-  animation-name: falling;
-  animation-duration: 1.5s;
-  
 
-}
-@keyframes falling {
-  from {
-    opacity: 0;
-    transform: translateY(-50px)
-  }
-  to {
-    opacity: 1;
-    transform : translateY(0);
-  }
- 
-}
 .projintrodesktop {
   opacity: 0;
   position: absolute;
