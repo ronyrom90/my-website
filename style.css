@@ -574,6 +574,8 @@ a:visited {
 @keyframes falling {
   from {opacity: 0;}
   to {opacity: 1;}
+  from {height: 0; }
+  to {height: 100%;}
 }
 
 /* M mobile */
