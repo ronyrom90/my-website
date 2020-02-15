@@ -568,6 +568,12 @@ a:visited {
     width:  -webkit-fill-available;
 
 }
+
+#video {
+  
+  width: 320px ;
+   height:240;
+  }
 /* M mobile */
 
 @media all and (min-width: 375px) and (max-width: 457px) {
