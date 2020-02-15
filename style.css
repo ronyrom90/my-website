@@ -242,7 +242,7 @@ ul.menu_items {
   flex-flow: column wrap;
   margin-right: auto;
   margin-left: auto;
-  align-items: center;
+  align-items: center;}
 
 .projintrodesktop {
   opacity: 0;
