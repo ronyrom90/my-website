@@ -574,7 +574,7 @@ a:visited {
 @keyframes falling {
   from {
     opacity: 0;
-    transform: translateY(-400px)
+    transform: translateY(-50px)
   }
   to {
     opacity: 1;
