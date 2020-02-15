@@ -80,6 +80,21 @@ ul.menu_items {
   letter-spacing: -0.14px;
   color: #000000;
   padding-left: 27px;
+  animation-name: falling;
+  animation-duration: 1.5s;
+  
+
+}
+@keyframes falling {
+  from {
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  to {
+    opacity: 1;
+    transform : translateY(0);
+  }
+ 
 }
 
 .aboutme {
@@ -136,22 +151,11 @@ ul.menu_items {
   padding-left: 29px;
   padding-right: 29px;
   font-weight: normal;
-  animation-name: falling;
-  animation-duration: 1.5s;
+
   
 
 }
-@keyframes falling {
-  from {
-    opacity: 0;
-    transform: translateY(-50px)
-  }
-  to {
-    opacity: 1;
-    transform : translateY(0);
-  }
- 
-}
+
 
 
 .aboutcontent {
