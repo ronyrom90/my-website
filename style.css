@@ -566,9 +566,15 @@ a:visited {
  #mockupsgroup {
 
     width:  -webkit-fill-available;
+    animation-name: falling;
+  animation-duration: 2s;
+  opacity: 0;
 
 }
-
+@keyframes falling {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 /* M mobile */
 
