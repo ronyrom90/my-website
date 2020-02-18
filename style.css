@@ -82,19 +82,16 @@ ul.menu_items {
   padding-left: 27px;
   animation-name: falling;
   animation-duration: 1.5s;
-  
-
 }
 @keyframes falling {
   from {
     opacity: 0;
-    transform: translateY(-50px)
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;
-    transform : translateY(0);
+    transform: translateY(0);
   }
- 
 }
 
 .aboutme {
@@ -151,12 +148,7 @@ ul.menu_items {
   padding-left: 29px;
   padding-right: 29px;
   font-weight: normal;
-
-  
-
 }
-
-
 
 .aboutcontent {
   padding-top: 30px;
@@ -194,7 +186,7 @@ ul.menu_items {
 .youtube {
   color: #000000;
   display: block;
- 
+
   font-size: 20.1px;
   font-weight: normal;
   letter-spacing: -0.04px;
@@ -246,7 +238,8 @@ ul.menu_items {
   flex-flow: column wrap;
   margin-right: auto;
   margin-left: auto;
-  align-items: center;}
+  align-items: center;
+}
 
 .projintrodesktop {
   opacity: 0;
@@ -259,11 +252,7 @@ ul.menu_items {
   text-decoration-color: #5d46db;
   padding-left: 27px;
   padding-top: 100px;
-  
-  
-
 }
-
 
 .projtext1 {
   width: 302.4px;
@@ -577,33 +566,25 @@ a:visited {
   letter-spacing: -0.03px;
 }
 
-
 .mockups {
-    position: absolute;
-    opacity: 0;
-    display: none;
-
-
-  
+  position: absolute;
+  opacity: 0;
+  display: none;
 }
- #mockupsgroup {
-
-    width:  -webkit-fill-available;
-    animation-name: falling;
+#mockupsgroup {
+  width: -webkit-fill-available;
+  animation-name: falling;
   animation-duration: 1.5s;
-  
-
 }
 @keyframes falling {
   from {
     opacity: 0;
-    transform: translateY(-50px)
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;
-    transform : translateY(0);
+    transform: translateY(0);
   }
- 
 }
 
 /* M mobile */
@@ -626,7 +607,6 @@ a:visited {
     width: 100%;
   }
   .youtube {
-    
     width: 100%;
   }
 
@@ -637,8 +617,6 @@ a:visited {
   #second {
     font-size: 22px;
   }
-
-  
 }
 
 /* LARGE MOBILE */
@@ -699,7 +677,6 @@ a:visited {
     width: 100%;
   }
   .youtube {
-    
     width: 100%;
   }
   .what {
@@ -877,7 +854,6 @@ a:visited {
   }
 
   .up2 {
-   
     margin-left: 1300px;
     transition: all 0s ease;
     position: absolute;
@@ -1019,11 +995,15 @@ a:visited {
     bottom: 18px;
     animation-name: example;
     animation-duration: 1.5s;
-      }
-    @keyframes example {
-      from {width: 0px}
-      to {width: 950px}
+  }
+  @keyframes example {
+    from {
+      width: 0px;
     }
+    to {
+      width: 950px;
+    }
+  }
 
   .project-container {
     margin-left: auto;
@@ -1293,13 +1273,12 @@ a:visited {
   }
 
   .aboutcontent {
-   
     font-weight: 300;
     padding-top: 50px;
     padding-left: 250px;
     padding-right: 250px;
     width: 100%;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 50px;
   }
 
@@ -1338,11 +1317,15 @@ a:visited {
     margin-top: 3px;
     animation-name: line22;
     animation-duration: 1s;
-      }
-    @keyframes line22 {
-      from {width: 0px}
-      to {width: 576px}
+  }
+  @keyframes line22 {
+    from {
+      width: 0px;
     }
+    to {
+      width: 576px;
+    }
+  }
   #pixel {
     width: 110px;
     height: 233px;
@@ -1367,11 +1350,15 @@ a:visited {
     margin-top: 3px;
     animation-name: line23;
     animation-duration: 1s;
-      }
-    @keyframes line23 {
-      from {width: 0px}
-      to {width: 660px}
+  }
+  @keyframes line23 {
+    from {
+      width: 0px;
     }
+    to {
+      width: 660px;
+    }
+  }
   .coforceapp {
     padding-left: 250px;
     font-size: 72px;
@@ -1384,29 +1371,25 @@ a:visited {
   .projintrodesktop {
     font-size: 28px;
     opacity: 1;
-    padding-left:250px;
-position: relative;
-padding-top:25px;
+    padding-left: 250px;
+    position: relative;
+    padding-top: 25px;
   }
 
-.mockups {
+  .mockups {
     position: relative;
-    opacity: 1;  
-display: flex;
-justify-content:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:50px;
-margin-bottom:50px;
-  
-}
- 
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 /* large desktop */
 @media all and (min-width: 1441px) and (max-width: 1920px) {
-  
-
   .up {
     margin-top: -35px;
     margin-left: 1300px;
@@ -1416,7 +1399,6 @@ margin-bottom:50px;
   }
 
   .up2 {
-    
     margin-left: 1300px;
     transition: all 0s ease;
     position: absolute;
@@ -1506,7 +1488,7 @@ margin-bottom:50px;
   }
 
   nav.nav-container {
-    padding-left:0px;
+    padding-left: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 942px;
@@ -1531,7 +1513,7 @@ margin-bottom:50px;
   .intro {
     padding-top: 50px;
     padding-left: 0px;
-   
+
     margin-left: auto;
     margin-right: auto;
     width: 942px;
@@ -1555,13 +1537,11 @@ margin-bottom:50px;
   }
 
   .what {
-    
     font-size: 28px;
     width: 941px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
-
   }
 
   .line {
@@ -1570,11 +1550,15 @@ margin-bottom:50px;
     bottom: 18px;
     animation-name: line;
     animation-duration: 1.5s;
-      }
-    @keyframes line {
-      from {width: 0px}
-      to {width: 1180px}
+  }
+  @keyframes line {
+    from {
+      width: 0px;
     }
+    to {
+      width: 1180px;
+    }
+  }
 
   .project-container {
     margin-left: auto;
@@ -1848,12 +1832,11 @@ margin-bottom:50px;
     margin-bottom: 50px;
     font-weight: 300;
     padding-top: 50px;
-   margin-right: auto;
-   margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 942px;
-    font-size: 28px;
+    font-size: 20px;
     padding-left: 0px;
-    
   }
 
   #hi {
@@ -1880,11 +1863,11 @@ margin-bottom:50px;
 
   .aboutme {
     padding-top: 50px;
-    padding-left: 0PX;
+    padding-left: 0px;
     font-size: 72px;
     display: flex;
-    WIDTH: 942PX;
-    MARGIN-LEFT: auto;
+    width: 942px;
+    margin-left: auto;
     margin-right: auto;
   }
 
@@ -1894,11 +1877,15 @@ margin-bottom:50px;
     margin-top: 3px;
     animation-name: line2;
     animation-duration: 1s;
-      }
-    @keyframes line2 {
-      from {width: 0px}
-      to {width: 815px}
+  }
+  @keyframes line2 {
+    from {
+      width: 0px;
     }
+    to {
+      width: 815px;
+    }
+  }
   #pixel {
     width: 110px;
     height: 233px;
@@ -1923,11 +1910,15 @@ margin-bottom:50px;
     margin-top: 3px;
     animation-name: line24;
     animation-duration: 1s;
-      }
-    @keyframes line24 {
-      from {width: 0px}
-      to {width: 990px}
+  }
+  @keyframes line24 {
+    from {
+      width: 0px;
     }
+    to {
+      width: 990px;
+    }
+  }
   .coforceapp {
     padding-left: 0px;
     font-size: 72px;
@@ -1951,16 +1942,14 @@ margin-bottom:50px;
     margin-right: auto;
   }
 
-.mockups {
+  .mockups {
     position: relative;
-    opacity: 1;  
-display: flex;
-justify-content:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:50px;
-margin-bottom:50px;
-  
-}
- 
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
