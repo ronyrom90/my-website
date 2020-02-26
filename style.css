@@ -165,7 +165,7 @@ ul.about_menu_items {
 }
 .line {
   height: 18px;
-  bottom: 18px;
+  bottom: 0px;
   animation-name: line;
   animation-duration: 1.5s;
 }
