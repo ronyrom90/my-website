@@ -1867,6 +1867,7 @@ body#midfi_page {
     display: flex;
     opacity: 1;
     position: relative;
+    pointer-events: auto;
   }
   #midfi {
   }
@@ -2090,6 +2091,7 @@ body#midfi_page {
   #midhigh-toggle {
     display: flex;
     opacity: 1;
+    pointer-events: auto;
   }
   ul.menu_items {
     margin-left: 0px;
