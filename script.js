@@ -1,5 +1,9 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+const link = document.getElementById("clickToUp");
+link.addEventListener("click", e => {
+  e.preventDefault();
+  console.log(link.href);
+  // const goal = link.href
+  const goal = document.querySelector(link.getAttribute("href"));
+  console.log(goal);
+  goal.scrollIntoView({ behavior: "smooth" });
+});

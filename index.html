@@ -18,11 +18,10 @@
       type="image/x-icon"
     />
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
   </head>
   <body>
     <header>
-      <nav class="nav-container">
+      <nav class="nav-container" id="topOfPage">
         <ul class="menu_items">
           <li id="first"><a class="links" href="about-me.html">About</a></li>
           <li id="second">
@@ -165,8 +164,8 @@
         </a>
       </div>
     </div>
-    <div class="up">
-      <a href="#" class="top"
+    <div class="up" >
+      <a href="#topOfPage" class="top" id="clickToUp"
         ><img
           id="upup"
           src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fupup.png?v=1570397903304"
@@ -201,6 +200,9 @@
         </ul>
       </div>
     </footer>
-    
+    <script src="/script.js" defer></script>
+
+  
+
   </body>
 </html>

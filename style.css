@@ -80,6 +80,7 @@ ul.about_menu_items {
 #midhigh-toggle {
   opacity: 0;
   position: absolute;
+  pointer-events: none;
 }
 
 .goback {
