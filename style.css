@@ -2757,6 +2757,7 @@ body#midfi_page {
   #midfi_page #midhigh-toggle {
     display: flex;
     opacity: 1;
+    position: relative;
   }
   #midfi_page #midfi {
     font-weight: bold;
