@@ -162,10 +162,7 @@ ul.about_menu_items {
   position: relative;
   bottom: 10px;
   z-index: -1;
-}
-.line {
-  height: 18px;
-  bottom: 0px;
+  height: 11px;
   animation-name: line;
   animation-duration: 1.5s;
 }
