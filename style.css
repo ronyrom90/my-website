@@ -685,7 +685,7 @@ body#midfi_page {
 #midfi_page #slash {
 }
 #midfi_page #midhigh-toggle {
-  opacity: 0;
+  pointer-events: none;
 }
 #midfi_page #first {
   text-decoration: underline;
@@ -1998,6 +1998,7 @@ body#midfi_page {
   #midfi_page #midhigh-toggle {
     display: flex;
     opacity: 1;
+    pointer-events: auto;
   }
   #midfi_page #midfi {
     font-weight: bold;
