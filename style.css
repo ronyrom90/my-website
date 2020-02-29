@@ -605,7 +605,9 @@ a:visited {
   line-height: normal;
   letter-spacing: -0.03px;
 }
-
+#Marticle {
+  font-weight: bold;
+}
 .mockups {
   position: absolute;
   opacity: 0;
