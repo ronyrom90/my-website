@@ -2076,6 +2076,7 @@ body#midfi_page {
     display: flex;
     opacity: 1;
     pointer-events: auto;
+    position: relative;
   }
   ul.menu_items {
     margin-left: 0px;
