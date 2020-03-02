@@ -713,16 +713,6 @@ body#midfi_page {
   padding-right: 29px;
   font-weight: normal;
 }
-#codedbyme {
-  padding-top: 30px;
-  font-size: 20.1px;
-  position: relative;
-  letter-spacing: -0.04px;
-  color: #000000;
-  padding-left: 29px;
-  padding-right: 29px;
-  font-weight: normal;
-}
 
 #midfi_page #arrow {
   display: block;
@@ -816,6 +806,7 @@ body#midfi_page {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .box {
@@ -873,9 +864,6 @@ body#midfi_page {
     font-size: 22px;
   }
   #midfi_page .intro {
-    font-size: 22px;
-  }
-  #codedbyme {
     font-size: 22px;
   }
   #midfi_page .what {
@@ -947,10 +935,6 @@ body#midfi_page {
   }
 
   #midfi_page .intro {
-    width: 100%;
-  }
-
-  #codedbyme {
     width: 100%;
   }
 
@@ -1195,10 +1179,6 @@ body#midfi_page {
     padding-left: 0;
   }
   #midfi_page .intro {
-    font-size: 24px;
-    padding-left: 0;
-  }
-  #codedbyme {
     font-size: 24px;
     padding-left: 0;
   }
@@ -1942,14 +1922,7 @@ body#midfi_page {
     padding-right: 0;
     width: 100%;
     font-size: 28px;
-  }
-
-  #codedbyme {
-    padding-top: 50px;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    font-size: 28px;
+    margin-bottom: 80px;
   }
 
   #midfi_page .what {
@@ -2724,14 +2697,7 @@ body#midfi_page {
     padding-right: 0;
     width: 100%;
     font-size: 28px;
-  }
-
-  #codedbyme {
-    padding-top: 50px;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    font-size: 28px;
+    margin-bottom: 80px;
   }
 
   #midfi_page .what {
