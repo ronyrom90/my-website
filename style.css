@@ -356,6 +356,12 @@ footer {
 #desktop-mockup {
   width: 100%;
 }
+
+#midfi-footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
 /* tablet */
 @media all and (min-width: 767px) and (max-width: 1023px) {
   h1 {
