@@ -19,128 +19,105 @@
     />
     <!-- import the webpage's javascript file -->
   </head>
-  <body>
+  <body class="about-me-page" id="topOfPage">
     <header>
-      <nav class="nav-container" id="topOfPage">
-        <ul class="about_menu_items">
-          <li>
-            <a href="index.html">
-              <img
-                id="backarrow"
-                src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fbackk.png?v=1571749838017"
-            /></a>
-          </li>
-          <li class="goback">
-            <a class="links" href="index.html"> Back</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="aboutme-container">
-      <div class="aboutme">
-        About me
+      <div class="headerbox">
+        <a id="back" href="index.html"
+          ><img
+            id="backarrow"
+            src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fbackk.png?v=1571749838017"
+          />
+          <h2>Back</h2>
+        </a>
       </div>
-      <div class="line2"></div>
-      <div class="aboutcontent">
-        <div id="hi">
+    </header>
+    <div class="about-me-container">
+      <div class="title">
+        <h1 id="about-me">
+          About me
+        </h1>
+        <div class="line"></div>
+      </div>
+      <div class="content">
+        <h3>
           Hi, my name is Rony Rom!
-        </div>
-        <br />
-        <div id="was_born">
+        </h3>
+
+        <h4>
           I was born and raised in Haifa, Israel (except for the 3 years we
           lived in New Jersey, NY in the early 90’s). Before becoming a UX/UI
           Designer, I worked as an Optometrist (the person who checks your
           vision and tells you that you need glasses).
-        </div>
-        <br />
-        <div id="why">
+        </h4>
+        <h3>
           Why UX/UI Design?
-        </div>
-        <br />
-
-        <div id="tech">
+        </h3>
+        <h4>
           Technology, computers, and other geeky stuff is something I always had
           an affinity for. As the one who was always fixing things around, it
           was just a matter of time for me to leave my previous profession and
           find myself doing what I enjoy the most: coming up with simple techy
-          solutions for daily struggles. <br />
-
-          I design pleasurable User Experiences, consistent User Interfaces, and
-          smart interactions.
-        </div>
-        <br />
-        <div id="Currently">
+          solutions for daily struggles. I design pleasurable User Experiences,
+          consistent User Interfaces, and smart interactions.
+        </h4>
+        <h3>
           Currently...
-        </div>
-        <br />
-        <div id="teaching">
+        </h3>
+        <h4>
           …I’m teaching UX/UI Design at Ironhack, Berlin which allows me to
           develop my skills and enrich my knowledge in design. I'm now looking
           for my next challenge as I want to keep on learning and growing. What
           excites me is giving the users a great experience through smooth and
           clean interaction design.
-        </div>
-        <br />
-        <div id="why2">
+        </h4>
+        <h3>
           Why Berlin?
-        </div>
-        <br />
-        <div id="well">
+        </h3>
+        <h4>
           Well, I arrived not so long ago for studies and stayed because of a
           work opportunity. During this time I found out that I enjoy living in
           Berlin and generally in Europe. Even though Berlin is great, I'm open
           to relocate and discover new places.
-        </div>
-        <br />
-        <div id="other">
+        </h4>
+        <h3>
           Other things I like:
-        </div>
-        <br />
-        <div id="travel">
+        </h3>
+        <h4>
           Traveling & hiking, photography, Crossfit, bouldering, cooking, baking
           & food in general.
-        </div>
-        <br /><br /><br />
-
-        <br />
+        </h4>
       </div>
     </div>
-    <div class="up2">
-      <a id="clickToUp" href="#topOfPage">
-        <img
+    <div class="up">
+      <a href="#topOfPage" class="top" id="clickToUp"
+        ><img
           id="upup"
-          src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fupup.png?v=1570397903304"
+          src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Farrow%20icon.png?v=1570370087262"
       /></a>
     </div>
+    <script src="/script.js" defer></script>
     <footer>
       <div class="footer-container">
-        <div class="touch">
+        <h2 id="touch">
           Let's get in touch!
-        </div>
-
-        <ul class="social-media">
-          <li id="mail">
-            <a class="links" href="mailto:ronyrom90@gmail.com" target="_blank"
+        </h2>
+        <div id="social-media">
+          <h2 id="mail">
+            <a href="mailto:ronyrom90@gmail.com" target="_blank"
               >ronyrom90@gmail.com</a
             >
-          </li>
-          <li id="linkedin">
-            <a
-              class="links"
-              href="https://www.linkedin.com/in/ronyrom/"
-              target="_blank"
+          </h2>
+
+          <h2 id="linkedin">
+            <a href="https://www.linkedin.com/in/ronyrom/" target="_blank"
               >LinkedIn</a
             >
-          </li>
-          <li id="medium">
-            <a class="links" href="https://medium.com/@ronyrom" target="_blank"
-              >Medium</a
-            >
-          </li>
-        </ul>
+          </h2>
+          <h2 id="medium">
+            <a href="https://medium.com/@ronyrom" target="_blank">Medium</a>
+          </h2>
+        </div>
       </div>
-
-      <script src="/script.js" defer></script>
     </footer>
   </body>
 </html>
