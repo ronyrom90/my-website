@@ -7,13 +7,3 @@ link.addEventListener("click", (e) => {
   console.log(goal);
   goal.scrollIntoView({ behavior: "smooth" });
 });
-
-const link = document.getElementById("clickToDown");
-link.addEventListener("click", (e) => {
-  e.preventDefault();
-  console.log(link.href);
-  // const goal = link.href
-  const goal = document.querySelector(link.getAttribute("href"));
-  console.log(goal);
-  goal.scrollIntoView({ behavior: "smooth" });
-});
