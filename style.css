@@ -632,9 +632,7 @@ footer {
     flex-flow: row wrap;
     align-items: baseline;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
-
+    width: 1024px;
     padding-top: 50px;
   }
 
