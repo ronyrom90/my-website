@@ -22,7 +22,6 @@ header {
 }
 
 .headerbox {
-  max-width: 935px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -477,7 +476,8 @@ footer {
     padding-top: 80px;
   }
   .content {
-    margin: 80px 48px 80px 48px;
+    margin: 80px auto 80px auto;
+    width: 928px;
   }
 
   #left-links {
@@ -488,11 +488,13 @@ footer {
   }
 
   .headerbox {
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 928px;
   }
   .about-me-page .headerbox {
-    margin-left: 48px;
+    width: 928px;
+    margin-left: auto;
   }
   #introtext {
     margin: 48px 550px 80px 48px;
@@ -511,8 +513,8 @@ footer {
     flex-flow: row wrap;
     align-items: baseline;
 
-    justify-content: space-evenly;
-    width: 1024px;
+    justify-content: space-between;
+    width: 928px;
   }
 
   .box {
@@ -539,8 +541,8 @@ footer {
   }
 
   .footer-container {
-    width: 100%;
-    margin: 0 48px 0 48px;
+    width: 928px;
+    margin: 0 auto 0 auto;
     justify-content: space-between;
   }
   #medium {
@@ -584,12 +586,13 @@ footer {
   }
 
   .headerbox {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
   }
   h1 {
     font-size: 72px;
-    margin: 0px 0px 0px 250px;
+    margin: 0px 0px 0px 208px;
   }
 
   .name-container {
@@ -605,15 +608,17 @@ footer {
   }
 
   #about-me {
-    margin: 48px 0 0 250px;
+    margin: 48px 0 0 208px;
   }
 
   .about-me-page .headerbox {
-    margin-left: 250px;
+    margin-left: auto;
+    width: 1024px;
   }
 
   .content {
-    margin: 80px 250px 80px 250px;
+    margin: 80px auto 80px auto;
+    width: 1024px;
   }
   .intro {
     background-image: url("https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fsomething.png?v=1586450205096");
@@ -623,7 +628,7 @@ footer {
   }
 
   #introtext {
-    margin: 64px 650px 160px 250px;
+    margin: 64px 650px 160px 208px;
   }
   .what {
     margin-left: 250px;
@@ -660,8 +665,8 @@ footer {
     transition: all 0s ease;
   }
   .footer-container {
-    width: 100%;
-    margin: 0 250px 0 250px;
+    width: 1024px;
+    margin: 0 auto 0 auto;
     justify-content: space-between;
   }
   #medium {
