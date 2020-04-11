@@ -15,7 +15,7 @@ body.about-me-page {
 body.midfi-page {
   font-family: "roboto";
 }
-header {
+.header {
   width: 100%;
   position: sticky;
   top: 0;
@@ -26,6 +26,7 @@ header {
 .midfi-page header {
   box-shadow: none;
   background-color: #d8d8d8;
+  position: static;
 }
 
 .headerbox {
