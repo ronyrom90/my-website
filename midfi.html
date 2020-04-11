@@ -13,29 +13,154 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="shortcut icon"
       href="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Ftab%20(1).ico?v=1570455628157"
       type="image/x-icon"
     />
     <!-- import the webpage's javascript file -->
   </head>
-  <body class="about-me-page" id="topOfPage">
+  <body class="midfi-page" id="topOfPage">
     <header>
       <div class="headerbox">
-        <a id="back" href="index.html"
-          ><img
-            id="backarrow"
-            src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fbackk.png?v=1571749838017"
-          />
-          <h2>Back</h2>
-        </a>
+        <div class="header-items" id="left-links">
+          <h2 id="about"><a href="about-me.html">About</a></h2>
+          <h2 id="resume">
+            <a
+              href="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2FRony-Rom-CV.pdf?v=1580893027802"
+              target="_blank"
+              >Resume</a
+            >
+          </h2>
+        </div>
+
+        <div class="header-items" id="right-links">
+          <h2 id="midfi">
+            Mid-fi
+          </h2>
+
+          <h2 id="slash">
+            /
+          </h2>
+
+          <h2 id="highfi">
+            <a href="index.html"> High-fi</a>
+          </h2>
+        </div>
       </div>
     </header>
 
-<h3>In process</h3>
-    
+    <div class="mainblock">
+      <div class="intro">
+        <div class="name-container">
+          <h1>Hi, my name</h1>
+
+          <div class="line"></div>
+        </div>
+
+        <h3 id="introtext">
+          How might I catch your eye so you contact me and hire me? ;)
+        </h3>
+
+        <div id="updown">
+          <a href="#downOfPage" id="clickToDown">
+            <img
+              id="arrow"
+              src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fblackarw.png?v=1582637557828"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="projects-container" id="downOfPage">
+        <div class="project-box">
+          <a href="coforce.html">
+            <img
+              class="box"
+              src="https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418"
+            />
+
+            <h4 class="project-title">CoForce App</h4>
+            <h5 class="project-description">
+              With CoForce you can find and join projects or create a new team
+              for a project of your own, all based on a shared passion.
+            </h5>
+          </a>
+        </div>
+        <div class="project-box">
+          <a
+            class="mediumlink"
+            href="https://medium.com/@ronyrom/add-a-feature-project-airbnb-vehicles-2096f7cdfd8a"
+            target="_blank"
+          >
+            <img
+              class="box"
+              src="https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418"
+            />
+
+            <h4 class="project-title">New feature for Airbnb</h4>
+            <h5 class="project-description">
+              In this project, in a fast UI sprint, I added the option to rent a
+              vehicle with the Airbnb app.
+            </h5>
+          </a>
+        </div>
+        <div class="project-box">
+          <a
+            class="mediumlink"
+            href="https://medium.com/@ronyrom/creating-a-microsite-week-six-at-ironhack-berlin-2168d359cbd6"
+            target="_blank"
+          >
+            <img
+              class="box"
+              src="https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418"
+            />
+
+            <h4 class="project-title">
+              Creating a website for a fireworks festival
+            </h4>
+            <h5 class="project-description">
+              5 days project in which I created a new design for the 2019 Blanes
+              Fireworks festival to be more attractive to tourists, make
+              information more accessible and create more transparency.
+            </h5>
+          </a>
+        </div>
+        <div class="project-box">
+          <a
+            class="mediumlink"
+            href="https://medium.com/@ronyrom/the-buddy-up-app-smart-people-inc-project-6200ae227ef0"
+            target="_blank"
+          >
+            <img
+              class="box"
+              src="https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418"
+            />
+
+            <h4 class="project-title">
+              Buddy-Up: Learning a language the fun way!
+            </h4>
+            <h5 class="project-description">
+              The Buddy-Up project was UX focused. From user research to mid-fi
+              wireframes with a lot of fun between.
+            </h5></a
+          >
+        </div>
+      </div>
+
+      <div class="up">
+        <a href="#topOfPage" class="top" id="clickToUp"
+          ><img
+            id="upup"
+            src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fblackarw.png?v=1582637557828"
+        /></a>
+      </div>
     </div>
-    <script src="/script.js" defer></script>
+
     <footer id="midfi-footer">
       <div class="footer-container">
         <h2 id="touch">
@@ -59,5 +184,6 @@
         </div>
       </div>
     </footer>
+    <script src="/script.js" defer></script>
   </body>
 </html>

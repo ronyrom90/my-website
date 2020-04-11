@@ -12,13 +12,20 @@ body.highfi-page {
 body.about-me-page {
   font-family: "Lato";
 }
-
+body.midfi-page {
+  font-family: "roboto";
+}
 header {
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 1;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.midfi-page header {
+  box-shadow: none;
+  background-color: #d8d8d8;
 }
 
 .headerbox {
@@ -41,6 +48,15 @@ header {
   background-color: #ffffff;
 }
 
+.midfi-page #midfi {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.midfi-page #slash {
+  text-decoration: none;
+}
+
 .highfi-page h2 {
   font-size: 20px;
   font-weight: 300;
@@ -50,6 +66,23 @@ header {
   font-weight: 300;
 }
 
+.midfi-page h2 {
+  font-weight: 400;
+  text-decoration: underline;
+}
+.midfi-page footer {
+  background-color: #d8d8d8;
+}
+
+.midfi-page #touch {
+  color: black;
+  text-decoration: none;
+}
+
+.midfi-page a:hover {
+  color: black;
+  text-decoration: none;
+}
 .header-items {
   display: flex;
   width: 50%;
@@ -110,6 +143,10 @@ h1 {
 }
 .highfi-page h1 {
   font-weight: 900;
+}
+
+.midfi-page h1 {
+  animation: none;
 }
 
 .highfi-page #rony {
@@ -230,6 +267,10 @@ h5 {
   }
 }
 
+.midfi-page #arrow {
+  animation: none;
+}
+
 .projects-container {
   display: flex;
   flex-flow: column wrap;
@@ -246,6 +287,9 @@ h5 {
   position: absolute;
   display: block;
   transition: 0.2s ease;
+}
+.midfi-page .box {
+  position: relative;
 }
 
 .boxmockup {
@@ -317,10 +361,21 @@ footer {
   transition: 0.2s ease;
   transform: scale(1.01);
 }
+
+.midfi-page .project-box:hover .box {
+  opacity: 1;
+  transition: none;
+  transform: none;
+}
 .project-box:hover .project-title {
   color: #5d46db;
   transition: 0.2s ease;
   text-decoration: underline;
+}
+
+.midfi-page .project-box:hover .project-title {
+  color: black;
+  transition: none;
 }
 #backarrow {
   width: 12px;
@@ -359,7 +414,7 @@ footer {
 
 #midfi-footer {
   bottom: 0;
-  position: fixed;
+
   width: 100%;
 }
 /* tablet */
@@ -505,6 +560,10 @@ footer {
     height: 650px;
     background-position: center;
   }
+
+  .midfi-page .intro {
+    background-image: url("https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418");
+  }
   .what {
     margin-left: 48px;
   }
@@ -625,6 +684,9 @@ footer {
     background-size: cover;
     height: 750px;
     background-position: center;
+  }
+  .midfi-page .intro {
+    background-image: url("https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fmidfi%20pic.png?v=1586595371418");
   }
 
   #introtext {
