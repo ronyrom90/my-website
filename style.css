@@ -402,7 +402,7 @@ footer {
 }
 
 #article {
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .proj-intro-d {
@@ -417,6 +417,14 @@ footer {
   bottom: 0;
 
   width: 100%;
+}
+
+.desktop-overview {
+  display: none;
+}
+
+h4.overview {
+  font-weight: 400;
 }
 /* tablet */
 @media all and (min-width: 767px) and (max-width: 1023px) {
@@ -634,6 +642,17 @@ footer {
 
     display: block;
   }
+
+  .desktop-overview {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+  .desktop-overview h4 {
+    font-weight: 400;
+  }
 }
 
 /* HD desktop */
@@ -759,5 +778,16 @@ footer {
     margin-top: 80px;
 
     display: block;
+  }
+  .desktop-overview {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+
+  .desktop-overview h4 {
+    font-weight: 400;
   }
 }
