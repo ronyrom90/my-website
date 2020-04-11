@@ -15,7 +15,7 @@ body.about-me-page {
 body.midfi-page {
   font-family: "roboto";
 }
-.header {
+header {
   width: 100%;
   position: sticky;
   top: 0;
