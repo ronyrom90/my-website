@@ -119,6 +119,11 @@ a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
 .project-box a:hover {
   text-decoration: none;
   color: black;
