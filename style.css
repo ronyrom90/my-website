@@ -401,10 +401,32 @@ footer {
   justify-content: space-around;
 }
 
-#article {
-  font-weight: 600;
+.btn {
+  background: #ffffff;
+  border: 1px solid #5d46db;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 15px 32px;
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.btn:hover {
+  background: #5d46db;
+  cursor: pointer;
+}
+.btn a {
+  color: #5d46db;
 }
 
+.btn:hover a {
+  color: white;
+  text-decoration: none;
+}
 .proj-intro-d {
   display: none;
 }
