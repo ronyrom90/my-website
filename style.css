@@ -117,10 +117,12 @@ a:visited {
 a:hover {
   color: #5d46db;
   cursor: pointer;
+  font-weight: 600;
 }
 
 footer a:hover {
   color: white;
+  font-weight: 300;
 }
 .project-box a:hover {
   color: black;
