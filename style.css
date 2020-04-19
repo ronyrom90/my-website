@@ -67,6 +67,9 @@ header {
   font-weight: 300;
 }
 
+.about-me-page a:hover h2 {
+  font-weight: 600;
+}
 .midfi-page h2 {
   font-weight: 400;
   text-decoration: underline;
