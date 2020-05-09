@@ -1,7 +1,6 @@
 /* CSS files add styling rules to your content */
 /* S mobile */
-html {
-}
+
 body {
   margin: 0;
   background-color: #f8f8f8;
@@ -166,7 +165,6 @@ h1 {
   display: block;
   position: relative;
   bottom: 6px;
-
   animation-name: slide;
   animation-duration: 1s;
 }
@@ -324,7 +322,7 @@ h5 {
 }
 
 footer {
-  height: 126px;
+  height: 145px;
   background-color: rgba(93, 70, 219, 0.69);
   display: flex;
 }
@@ -455,6 +453,7 @@ footer {
 h4.overview {
   font-weight: 400;
 }
+
 /* tablet */
 @media all and (min-width: 767px) and (max-width: 1023px) {
   h1 {
@@ -818,5 +817,6 @@ h4.overview {
 
   .desktop-overview h4 {
     font-weight: 400;
+    list-style: none;
   }
 }
