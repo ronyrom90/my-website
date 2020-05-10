@@ -91,16 +91,14 @@ h5 {
 a:visited {
   color: black;
 }
-.highfi-page a:hover {
+a:hover {
   color: rgba(93, 70, 219);
 }
-.about-me-page a:hover {
-  color: rgba(93, 70, 219);
-}
-.coforce-page a:hover {
-  color: rgba(93, 70, 219);
-}
+
 a:hover h5 {
+  color: black;
+}
+.midfi-page a:hover {
   color: black;
 }
 .project-box a {
@@ -189,37 +187,26 @@ footer {
   grid-column: 2 /4;
 }
 
-.highfi-page .icon:hover #closed {
+.icon:hover #closed {
   stroke: rgba(93, 70, 219);
 }
 
-.highfi-page .icon:hover #Icon-Shape {
+.icon:hover #Icon-Shape {
   fill: rgba(93, 70, 219);
 }
-.highfi-page .icon:hover #Icon-Path {
-  fill: rgba(93, 70, 219);
-}
-
-.about-me-page .icon:hover #closed {
-  stroke: rgba(93, 70, 219);
-}
-
-.about-me-page .icon:hover #Icon-Shape {
-  fill: rgba(93, 70, 219);
-}
-.about-me-page .icon:hover #Icon-Path {
+.icon:hover #Icon-Path {
   fill: rgba(93, 70, 219);
 }
 
-.coforce-page .icon:hover #closed {
-  stroke: rgba(93, 70, 219);
+.midfi-page .icon:hover #closed {
+  stroke: black;
 }
 
-.coforce-page .icon:hover #Icon-Shape {
-  fill: rgba(93, 70, 219);
+.midfi-page .icon:hover #Icon-Shape {
+  fill: black;
 }
-.coforce-page .icon:hover #Icon-Path {
-  fill: rgba(93, 70, 219);
+.midfi-page .icon:hover #Icon-Path {
+  fill: black;
 }
 
 .icon:hover {
