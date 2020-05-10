@@ -196,6 +196,29 @@ footer {
 .highfi-page .icon:hover #Icon-Path {
   fill: rgba(93, 70, 219);
 }
+
+.about-me-page .icon:hover #closed {
+  stroke: rgba(93, 70, 219);
+}
+
+.about-me-page .icon:hover #Icon-Shape {
+  fill: rgba(93, 70, 219);
+}
+.about-me-page .icon:hover #Icon-Path {
+  fill: rgba(93, 70, 219);
+}
+
+.coforce-page .icon:hover #closed {
+  stroke: rgba(93, 70, 219);
+}
+
+.coforce-page .icon:hover #Icon-Shape {
+  fill: rgba(93, 70, 219);
+}
+.coforce-page .icon:hover #Icon-Path {
+  fill: rgba(93, 70, 219);
+}
+
 .icon:hover {
   cursor: pointer;
 }
