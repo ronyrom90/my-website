@@ -31,23 +31,42 @@ h2 {
 nav h2 {
   color: rgba(93, 70, 219);
 }
-.midfi-page h2 {
-  font-weight: 400;
-  text-decoration: underline;
-  color: black;
-}
 
-.midfi-page footer h2 {
-  text-decoration: none;
-}
 h3 {
   font-size: 16px;
   font-weight: normal;
-
   grid-column: 2;
   margin-top: 32px;
 }
 
+h4 {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 16px 0;
+  max-width: 320px;
+}
+h5 {
+  font-weight: normal;
+  font-size: 16px;
+  max-width: 320px;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: rgba(93, 70, 219);
+}
+
+a:hover h5 {
+  color: black;
+}
+.project-box a {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 40px;
+}
 .about-me-page h3 {
   max-width: 100%;
   font-weight: normal;
@@ -74,38 +93,19 @@ h3 {
   font-weight: 300;
   text-decoration: none;
 }
-
-h4 {
+.midfi-page h2 {
+  font-weight: 400;
   text-decoration: underline;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 16px 0;
-  max-width: 320px;
-}
-h5 {
-  font-weight: normal;
-  font-size: 16px;
-  max-width: 320px;
-}
-
-a:visited {
   color: black;
 }
-a:hover {
-  color: rgba(93, 70, 219);
-}
 
-a:hover h5 {
-  color: black;
+.midfi-page footer h2 {
+  text-decoration: none;
 }
 .midfi-page a:hover {
   color: black;
 }
-.project-box a {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-bottom: 40px;
-}
+
 .midfi-page #midfi h2 {
   font-weight: 900;
   text-decoration: none;
@@ -197,6 +197,16 @@ footer {
 .icon:hover #Icon-Path {
   fill: rgba(93, 70, 219);
 }
+.midfi-page #closed {
+  stroke: black;
+}
+
+.midfi-page #Icon-Shape {
+  fill: black;
+}
+.midfi-page #Icon-Path {
+  fill: black;
+}
 
 .midfi-page .icon:hover #closed {
   stroke: black;
@@ -211,17 +221,6 @@ footer {
 
 .icon:hover {
   cursor: pointer;
-}
-
-.midfi-page #closed {
-  stroke: black;
-}
-
-.midfi-page #Icon-Shape {
-  fill: black;
-}
-.midfi-page #Icon-Path {
-  fill: black;
 }
 
 /* main content*/
@@ -248,13 +247,6 @@ footer {
   animation-duration: 1s;
 }
 
-.midfi-page #name {
-  animation: none;
-}
-
-.midfi-page #updown {
-  animation: none;
-}
 @keyframes falling {
   from {
     opacity: 0;
@@ -293,6 +285,14 @@ footer {
   opacity: 0;
   padding-left: 30px;
   font-family: rubik;
+}
+
+.midfi-page #name {
+  animation: none;
+}
+
+.midfi-page #updown {
+  animation: none;
 }
 .highfi-page .name-container:hover {
   cursor: url("https://cdn.glitch.com/adc78b88-ec8d-481f-a55e-7ef26d0d4a24%2F%F0%9F%A5%91.svg?v=1589097619325"),
