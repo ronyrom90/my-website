@@ -97,6 +97,9 @@ a:visited {
 .about-me-page a:hover {
   color: rgba(93, 70, 219);
 }
+.coforce-page a:hover {
+  color: rgba(93, 70, 219);
+}
 a:hover h5 {
   color: black;
 }
