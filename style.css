@@ -15,6 +15,10 @@ body.midfi-page {
   background-color: white;
 }
 
+body.mo-page {
+  background-color: #edf2f1;
+}
+
 .preloader {
   position: absolute;
   width: 100%;
@@ -124,6 +128,26 @@ a:hover h5 {
 .midfi-page #midfi h2 {
   font-weight: 900;
   text-decoration: none;
+}
+#mo-h2 {
+  color: black;
+  font-weight: bold;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+}
+#mo-h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
 }
 
 /* nav*/
@@ -339,6 +363,17 @@ footer {
 .coforce-page .name-container {
   grid-column: 1/4;
 }
+.case-study {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.mo-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 #glasses {
   width: 26px;
@@ -472,6 +507,9 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 400;
+}
+.mo-banner {
+  width: 100%;
 }
 
 /* tablet to desktop */
