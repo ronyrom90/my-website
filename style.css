@@ -47,6 +47,9 @@ h2 {
   font-weight: 300;
   color: white;
 }
+.about-me-new-page h2 {
+  color: #4a4a4a;
+}
 nav h2 {
   color: rgba(93, 70, 219);
 }
@@ -194,11 +197,11 @@ nav {
 }
 /*footer*/
 footer {
-  background-color: #8d7ee5;
-  display: grid;
-  grid-template-columns: 32px 1fr 32px;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 40px 0;
 }
 
 .midfi-page footer {
@@ -210,31 +213,39 @@ footer {
   display: flex;
   justify-content: space-between;
   align-self: center;
-  grid-column: 2 /3;
-  max-width: 300px;
+  margin: 40px 0;
+  width: 200px;
 }
 
 #copyrights {
   font-size: 12px;
   align-self: center;
-  grid-column: 2 /4;
-  grid-row: 3;
+
+  color: #584cd3;
 }
 
 #touch {
   align-self: center;
-  grid-column: 2 /4;
+
+  color: #584cd3;
+}
+.midfi-page #touch {
+  color: black;
+}
+
+.midfi-page #copyrights {
+  color: black;
 }
 
 .icon:hover #closed {
-  stroke: rgba(93, 70, 219);
+  stroke: rgb(0, 0, 0);
 }
 
 .icon:hover #Icon-Shape {
-  fill: rgba(93, 70, 219);
+  fill: rgb(0, 0, 0);
 }
 .icon:hover #Icon-Path {
-  fill: rgba(93, 70, 219);
+  fill: rgb(0, 0, 0);
 }
 .midfi-page #closed {
   stroke: black;
@@ -324,6 +335,13 @@ footer {
   opacity: 0;
   padding-left: 30px;
   font-family: rubik;
+}
+
+.about-me-new-page .hero-container {
+  display: flex;
+}
+.hero-container #my-pic {
+  width: 400px;
 }
 
 .midfi-page #name {
@@ -529,9 +547,6 @@ footer {
 
   .social-media {
     justify-self: center;
-    width: 80%;
-    grid-row: 1;
-    grid-column: 2;
   }
 
   #copyrights {
