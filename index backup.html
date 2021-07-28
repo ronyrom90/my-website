@@ -1,3 +1,6 @@
+<!-- Version control 4.7.21 -->
+<!--
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,21 +26,18 @@
       href="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Ftab%20(1).ico?v=1570455628157"
       type="image/x-icon"
     />
-    <!-- import the webpage's stylesheet -->
+    <!-- import the webpage's stylesheet 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- import the webpage's javascript file -->
+    <!-- import the webpage's javascript file 
   </head>
 
   <body class="highfi-page" id="topOfPage">
     <div class="preloader"></div>
     <nav>
       <ul id="nav-items">
-        <li id="rony-logo">
-          <h2>Rony Rom.</h2>
-        </li>
         <li id="about">
-          <h2><a href="aboutnew.html">About</a></h2>
+          <h2><a href="about.html">About</a></h2>
         </li>
         <li id="resume">
           <h2>
@@ -49,38 +49,44 @@
           </h2>
         </li>
       </ul>
-      <!--  <ul id="midhigh">
+      <ul id="midhigh">
         <li id="midfi">
           <h2><a href="midfi.html">Mid-fi</a></h2>
         </li>
         <li id="slash"><h2 id="slash">/</h2></li>
         <li id="highfi"><h2>High-fi</h2></li>
-      </ul> -->
+      </ul>
     </nav>
 
     <div class="main-container">
-      <!--  <div id="updown">
+      <img
+        id="my-pic"
+        src="https://cdn.glitch.com/ed6fa6a0-6a0d-47c5-8378-15ebddfe566d%2Fsomething.png?v=1586450205096"
+      />
+      <div class="name-container">
+        <h1 id="name">
+          Hi, I'm <font id="rony"> Rony </font><font id="ronyheb"> רוני </font>
+        </h1>
+        <div class="line"></div>
+      </div>
+      <h3 id="introtext">
+        I’m a <font color="#5d46db"> Product Designer </font> (and also an
+        Optometrist<img
+          id="glasses"
+          src="https://cdn.glitch.com/a9134660-eb49-4ebf-b2a8-117bb11baff1%2Ffa-solid%3Aglasses.png?v=1569933721237"
+        />). Originally from Israel but currently based in Berlin, Germany.
+        Focusing on user experience, visual and interaction design.<br /><br /><br />This
+        portfolio is coded by me and I always keep updating it. It’s an
+        iterative process.
+      </h3>
+
+      <div id="updown">
         <a href="#downOfPage" id="clickToDown">
           <img
             id="arrow"
             src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Farrow%20icon.png?v=1570370087262"
           />
         </a>
-      </div> -->
-
-      <div class="hero-container">
-        <h3>Hi, thanks for stopping by!</h3>
-        <h1>
-          I’m Rony, a<font class="bold"> Product Designer</font>. Focusing on
-          <font class="bold">User Experience</font>,
-          <font class="bold">Visual</font> and
-          <font class="bold">Interaction Design</font>.
-        </h1>
-        <h3 id="israel">Originally from Israel, currently based in Berlin</h3>
-
-        <a href="#downOfPage" id="clickToDown">
-          <button class="btn">View projects</button></a
-        >
       </div>
       <div class="projects-container" id="downOfPage">
         <div class="project-box">
@@ -99,15 +105,15 @@
             <h4 class="project-title">
               Mo App: The winner of the Sexhack hackathon 2020
             </h4>
-            <p class="project-description">
+            <h5 class="project-description">
               An app where kids can easily learn and understand all the physical
               and emotional changes their bodies go through while menstruating
               so they perceive it as a natural process and not as a taboo.
-            </p>
+            </h5>
           </a>
         </div>
         <div class="project-box">
-          <a href="coforcenew.html">
+          <a href="coforce.html">
             <img
               class="box"
               src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fmockupbg.png?v=1573948560784"
@@ -119,10 +125,10 @@
             />
 
             <h4 class="project-title">CoForce App</h4>
-            <p class="project-description">
+            <h5 class="project-description">
               With CoForce you can find and join projects or create a new team
               for a project of your own, all based on a shared passion.
-            </p>
+            </h5>
           </a>
         </div>
         <div class="project-box">
@@ -141,10 +147,10 @@
               src="https://cdn.glitch.com/4c344d4d-7336-4328-9eeb-c4adc239f08d%2Fmockupsair.png?v=1573945040084"
             />
             <h4 class="project-title">New feature for Airbnb</h4>
-            <p class="project-description">
+            <h5 class="project-description">
               In this project, in a fast UI sprint, I added the option to rent a
               vehicle with the Airbnb app.
-            </p>
+            </h5>
           </a>
         </div>
         <div class="project-box">
@@ -165,11 +171,11 @@
             <h4 class="project-title">
               Creating a website for a fireworks festival
             </h4>
-            <p class="project-description">
+            <h5 class="project-description">
               5 days project in which I created a new design for the 2019 Blanes
               Fireworks festival to be more attractive to tourists, make
               information more accessible and create more transparency.
-            </p>
+            </h5>
           </a>
         </div>
         <div class="project-box">
@@ -190,10 +196,10 @@
             <h4 class="project-title">
               Buddy-Up: Learning a language the fun way!
             </h4>
-            <p class="project-description">
+            <h5 class="project-description">
               The Buddy-Up project was UX focused. From user research to mid-fi
               wireframes with a lot of fun between.
-            </p></a
+            </h5></a
           >
         </div>
       </div>
