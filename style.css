@@ -223,7 +223,7 @@ footer {
 }
 
 #copyrights {
-  font-size: 12px;
+  font-size: 14px;
   align-self: center;
 
   color: #584cd3;
@@ -233,13 +233,6 @@ footer {
   align-self: center;
 
   color: #584cd3;
-}
-.midfi-page #touch {
-  color: #363636;
-}
-
-.midfi-page #copyrights {
-  color: #363636;
 }
 
 .icon:hover #closed {
@@ -251,27 +244,6 @@ footer {
 }
 .icon:hover #Icon-Path {
   fill: #4a4a4a;
-}
-.midfi-page #closed {
-  stroke: #363636;
-}
-
-.midfi-page #Icon-Shape {
-  fill: #363636;
-}
-.midfi-page #Icon-Path {
-  fill: #363636;
-}
-
-.midfi-page .icon:hover #closed {
-  stroke: #363636;
-}
-
-.midfi-page .icon:hover #Icon-Shape {
-  fill: #363636;
-}
-.midfi-page .icon:hover #Icon-Path {
-  fill: #363636;
 }
 
 .icon:hover {
@@ -542,6 +514,10 @@ button:hover {
   transition: 0.2s ease;
   transform: scale(1.01);
 }
+.highfi-page .project-box:hover h4 {
+  color: #584cd3;
+  text-decoration: underline;
+}
 
 #coforce-hero {
   width: 100%;
@@ -604,7 +580,7 @@ span {
   }
 
   #copyrights {
-    font-size: 12px;
+    font-size: 14px;
     grid-row: 1;
     grid-column: 2;
     justify-self: end;
