@@ -10,10 +10,6 @@ body {
   font-family: "lato";
   background-color: white;
 }
-body.midfi-page {
-  font-family: "roboto";
-  background-color: white;
-}
 
 body.mo-page {
   background-color: #edf2f1;
@@ -102,25 +98,29 @@ a:hover p {
   font-weight: 300;
   text-decoration: none;
 }
-.coforce-page h1 {
+.case-study-page h1 {
   color: #4a4a4a;
   font-size: 60px;
   font-weight: 900;
   margin: 32px auto;
 }
 
-.coforce-page h3 {
+.case-study-page h3 {
   grid-row: 3;
   grid-column: 2/4;
   margin: 16px 0;
   color: #5d46db;
   font-size: 20px;
 }
-.coforce-page p {
+.case-study-page p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.75rem;
   color: #363636;
+}
+
+.feature-item p {
+  font-size: 16px;
 }
 
 #mo-h2 {
@@ -167,6 +167,13 @@ a:hover p {
   font-weight: 300;
 }
 
+section h2 {
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+}
 /* nav*/
 nav {
   width: 100%;
@@ -194,11 +201,6 @@ nav {
   align-self: center;
 }
 
-.midfi-page nav {
-  box-shadow: none;
-  background-color: #d8d8d8;
-  position: static;
-}
 /*footer*/
 footer {
   background-color: white;
@@ -207,10 +209,6 @@ footer {
   height: fit-content;
   padding: 40px 0;
   background-color: #f8f8f8;
-}
-
-.midfi-page footer {
-  background-color: #d8d8d8;
 }
 
 .social-media {
@@ -427,6 +425,24 @@ button:hover {
   margin-top: 80px;
 }
 
+.mockups-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+}
+.mockups {
+  display: flex;
+  flex-direction: column;
+}
+.mockups-img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
 .mo-header {
   display: flex;
   justify-content: center;
@@ -469,7 +485,7 @@ button:hover {
   margin: 80px auto 40px auto;
 }
 
-.coforce-page .up {
+.case-study-page .up {
   margin: 80px auto 0;
 }
 
@@ -522,13 +538,18 @@ button:hover {
 #coforce-hero {
   width: 100%;
 }
+#cast-out-hero {
+  object-fit: cover;
+  max-height: 395px;
+  width: 100%;
+}
 
-.coforce-page .main-container {
+.main-container-case-study {
   display: flex;
   flex-flow: column;
-  margin: 32px auto;
+  margin: 64px auto;
   padding: 0 16px;
-  max-width: 650px;
+
   align-items: center;
 }
 
@@ -537,7 +558,9 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
-
+#intro {
+  max-width: 678px;
+}
 span {
   font-weight: 300;
   color: #363636;
@@ -549,6 +572,59 @@ span {
 
 .mo-banner {
   width: 100%;
+}
+
+section {
+  width: 100%;
+  background-color: #3d3c3c;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature-item {
+  background-color: white;
+  border-radius: 6px;
+  padding: 24px;
+  max-width: 535px;
+  width: 100%;
+}
+.feature-item h4 {
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+.features-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 48px auto;
+}
+
+.icon-title {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  align-items: start;
+}
+.feature-item p {
+  margin-left: 40px;
+}
+
+.fork-icon {
+  width: 32px;
+}
+
+#features {
+  margin: 40px auto;
+  max-width: 800px;
+  width: 100%;
+  height: min-content;
+}
+
+#chevron {
+  margin-top: 64px;
 }
 
 /* tablet to desktop */
@@ -605,10 +681,6 @@ span {
     justify-self: center;
   }
 
-  #mobile-mockup {
-    justify-self: start;
-    grid-row: 2;
-  }
   .about-me-new-page .hero-container {
     flex-direction: row;
   }
@@ -629,6 +701,11 @@ span {
     margin: 0;
     padding: 32px;
   }
+
+  section h2 {
+    font-size: 32px;
+  }
+
   .content {
     margin: 0 64px;
   }
@@ -642,6 +719,16 @@ span {
   .content-box {
     max-width: 700px;
     margin: 80px auto;
+  }
+
+  .mockups-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .mockups {
+    width: 25%;
   }
 }
 
@@ -668,6 +755,7 @@ span {
     max-width: 432px;
     font-size: 18px;
   }
+
   .highfi-page .hero-container {
     grid-column: 1/15;
     padding: 120px 0;
@@ -742,16 +830,6 @@ span {
     margin-top: 80px;
   }
 
-  #desktop-mockup {
-    display: grid;
-    width: 100%;
-    grid-column: 1/15;
-    margin-top: 80px;
-  }
-  #mobile-mockup {
-    display: none;
-  }
-
   .about-me-new-page .main-container {
     grid-template-columns: 120px 1fr 120px;
   }
@@ -793,6 +871,33 @@ span {
   .content {
     margin: 0;
   }
+
+  section h2 {
+    width: 40%;
+    text-align: left;
+    font-size: 40px;
+    padding: 48px;
+  }
+  #features {
+    padding: 48px;
+    width: 60%;
+  }
+
+  .feature-item {
+    height: max-content;
+  }
+  .main-container-case-study {
+    margin: 112px auto;
+  }
+  section {
+    padding: 32px 32px;
+  }
+  .features-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    max-width: 1440px;
+  }
 }
 
 /* HD desktop */
@@ -819,5 +924,8 @@ span {
 
   .about-me-new-page nav {
     grid-template-columns: 1fr 1280px 1fr;
+  }
+  section h2 {
+    font-size: 46px;
   }
 }
