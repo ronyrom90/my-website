@@ -597,7 +597,7 @@ section {
 }
 .features-list {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   gap: 16px;
   margin: 48px auto;
 }
